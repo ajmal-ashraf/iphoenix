@@ -1,0 +1,11 @@
+.footer{
+    background-color: #bababa;
+    color: black;
+    text-align: center;
+}
+
+@media (max-width: 1440px) {
+    .footer{
+        font-size: 8px;
+    }
+}

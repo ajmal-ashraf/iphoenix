@@ -1,0 +1,123 @@
+
+header{
+    padding: 3px 78px;
+    position: fixed;
+    z-index: 2;
+    background-color: #fff;
+    width: 100%;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.logo h3 a{
+   font-size: 42px;
+}
+ header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .nav-bar ul{
+    display: flex;
+ }
+ .list-item a{
+    color: #0071e3;
+    font-size: 18px;
+    margin: 10px 10px;
+    transition: all ease-in 0.3s;
+ }
+ .list-item.active a{
+       color: #185088;
+  }
+ .logo h3 a{
+    font-size: 50px;
+    color: black;
+ }
+ .list-item a:hover{
+   color: #185088;
+ }
+ .nav-bar .icon{
+   display: none;
+ }
+
+
+ /* ---------------------------------MEDIA QUERIES---------------------- */
+
+ /* Large devices */
+ @media (max-width: 1440px) {
+   .logo h3 a{
+      font-size: 31px;
+   }
+   .list-item a{
+      font-size: 14px;
+   }
+ }
+
+@media (max-width: 1024px) {
+   header{
+      padding: 10px 0px;
+   }
+   .logo h3 a{
+      font-size: 35px;
+   }
+   .nav-bar .list-style{
+      display: block;
+      transform: translateX(-110%);
+      transition: all ease 0.3s;
+    }
+    .nav-bar .icon{
+      font-size: 28px;
+    }
+    .nav-bar .icon{
+      display: block;
+      margin-left: 10px;
+    }
+    .list-style.is-active{
+      transform: translateX(0%);
+    }
+    .list-style{
+      width: 100%;
+      background-color: white;
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 100%;
+    }
+    .list-style a{
+      font-size: 25px;
+    }
+    .list-item {
+      padding: 40px;
+      padding-bottom: 10px;
+    }
+}
+
+
+/* for Mobile devices */
+
+@media (max-width: 480px) {
+   .list-item {
+      padding: 12px;
+      padding-bottom: 12px;
+    }
+    .list-item a{
+      font-size: 15px;
+    }
+}
+
+@media (max-width: 320px) {
+   header{
+      padding: 0px 2px;
+   }
+   .logo h3 a{
+      font-size: 20px;
+   }
+   .nav-bar .icon{
+      font-size: 25px;
+   }
+   .list-item {
+      padding: 12px;
+      padding-bottom: 8px;
+    }
+    .list-item a{
+      font-size: 12px;
+    }
+}

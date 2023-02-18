@@ -1,0 +1,112 @@
+.hero {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+     url("../../Images/apple-product-photo.jpg");
+    background-size: cover;
+}
+.hero-info{
+    position: absolute;
+    color: white;
+    top: 40%;
+    transform: translateY(-50%);
+
+}
+.hero-info a {
+    color: rgb(215, 213, 213);
+    background: #0071e3;
+    padding: 21px 54px;
+    font-size: 30px;
+    border-radius: 40px;
+}
+.hero-info a:hover{
+   background: #025bb5;
+}
+.hero h1{
+    font-size: 90px;
+    font-weight: 550;
+}   
+.hero-info h1 span{
+    font-size: 45px;
+    font-weight: 100;
+}
+.hero-info p {
+    margin-bottom: 60px;
+    font-size: 25px;
+    color: rgb(218, 218, 218);
+}
+
+ /* ---------------------------------MEDIA QUERIES---------------------- */
+
+ /* Large devices */
+ @media (max-width: 1440px){
+    .hero-info{
+        top: 66%;
+    }
+    .hero h1{
+        font-size: 50px;
+    }
+    .hero-info a{
+        font-size: 22px;
+        padding: 10px 22px;
+    }
+    .hero-info p{
+        margin-bottom: 40px;
+    }
+ }
+
+@media (max-width: 1024px) {
+    .hero h1{
+        font-size: 53px;
+        font-weight: 550;
+    }  
+    .hero-info {
+        position: absolute;
+        color: white;
+        top: 51%;
+        transform: translateY(-50%);
+    }
+    .hero-info a{
+    padding: 9px 31px;
+    font-size: 18px;
+    }
+    .hero-info p{
+        margin-bottom: 32px;
+    }
+}
+
+/* For Mobile Devices */
+
+@media (max-width: 480px) {
+    .hero-info{
+        top: 53%;
+    }
+    .hero-info h1{
+        font-size: 41px;
+    }
+    .hero-info h1 span{
+        font-size: 27px;
+    }
+    .hero-info p{
+        font-size: 13px;
+    }
+}
+
+
+@media (max-width: 320px) {
+    .hero-info h1{
+      font-size: 27px;
+    }
+    .hero-info h1 span{
+        font-size: 17px;
+    }
+    .hero-info p{
+        font-size: 8px;
+        margin-bottom: 20px;
+    }
+    .hero-info a{
+        padding: 7px 20px;
+        font-size: 13px;
+    }
+}
