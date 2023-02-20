@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/iphoenix/static/css/main.bb6e482c.css",
-    "main.js": "/iphoenix/static/js/main.a90de5e4.js",
+    "main.js": "/iphoenix/static/js/main.a2ff7359.js",
     "static/media/apple-product-photo.jpg": "/iphoenix/static/media/apple-product-photo.0a9cef3323261b858513.jpg",
     "index.html": "/iphoenix/index.html",
     "main.bb6e482c.css.map": "/iphoenix/static/css/main.bb6e482c.css.map",
-    "main.a90de5e4.js.map": "/iphoenix/static/js/main.a90de5e4.js.map"
+    "main.a2ff7359.js.map": "/iphoenix/static/js/main.a2ff7359.js.map"
   },
   "entrypoints": [
     "static/css/main.bb6e482c.css",
-    "static/js/main.a90de5e4.js"
+    "static/js/main.a2ff7359.js"
   ]
 }
