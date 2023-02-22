@@ -22,8 +22,8 @@ const Contact = () => {
                     </div>
                     <div className='contact-info' data-aos="fade-up">
                        <h3>Phone</h3>
-                       <h5>+91 8289828129</h5>
                        <h5>+91 8589897764</h5>
+                       <h5>+91 8289828129</h5>
                     </div>
                  </div>
                  <div className='mobile'>
@@ -41,7 +41,7 @@ const Contact = () => {
                     </div>
                     <div className='contact-info' data-aos="fade-up">
                       <h3>Address</h3>
-                       <h5>Near Hilite Mall.<br/>Palazhi-Pala P.O G.A College<br/>PIN : 673014</h5>
+                       <h5>Near Hilite Mall.<br/>Palazhi-Pala P.O G.A College<br/>PIN : 673014.</h5>
                     </div>
                  </div>
                  <div className='socialmedia' data-aos="fade-up">
