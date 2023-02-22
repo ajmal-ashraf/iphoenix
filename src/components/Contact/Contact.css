@@ -83,10 +83,10 @@ textarea{
  /* Large devices */
  @media (max-width: 1440px){
     .head-collection h3{
-        font-size: 46px;
+        font-size: 37px;
     }
     .head-collection p{
-        font-size: 25px;
+        font-size: 20px;
     }
     .contact-info h3{
         font-size: 15px;
@@ -102,12 +102,14 @@ textarea{
     }
     .btn-submit{
         padding: 7px 13px;
+        font-size: 16px;
     }
     .mobile{
         margin-bottom: 33px;
     }
     input{
-        height: 35px;
+        height: 30px;
+        padding: 15px;
     }
     textarea{
         height: 87px;
@@ -119,24 +121,41 @@ textarea{
         padding-top: 8px;
     }
     .head-collection h3{
-        font-size: 50px;
+        font-size: 35px;
         margin-bottom: 30px;
     }
     .head-collection p{
-        font-size: 25px;
+        font-size: 8px;
     }
     .mobile{
         margin-bottom: 25px;
     }
     .contact-info h3{
-        font-size: 20px;
+        font-size: 16px;
     }
     .mobile .icon{
         font-size: 12px;
     }
     .btn-submit{
-        font-size: 20px;
+        font-size: 12px;
         padding: 13px 33px;
+    }
+    .fa-solid{
+        font-size: 14px;
+    }
+    .contact-info h5{
+        font-size: 11px;
+    }
+    .btn-submit {
+        font-size: 8px;
+        padding: 5px 16px;
+    }
+    input{
+        height: 30px;
+        padding: 15px;
+    }
+    input , textarea{
+        font-size: 9px;
     }
 }
 
@@ -148,6 +167,9 @@ textarea{
     }
     form h5{
        font-weight: 600;
+    }
+    .btn-submit {
+        font-size: 18px;
     }
 }
 
@@ -172,6 +194,9 @@ textarea{
     }
     .icon{
         margin-right: 15px;
+    }
+    .btn-submit {
+        font-size: 14px;
     }
     .fa-solid{
         font-size: 19px;

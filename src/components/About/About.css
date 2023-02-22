@@ -48,28 +48,28 @@
  /* Large devices */
  @media (max-width: 1440px){
     .head h3{
-        font-size: 46px;
+        font-size: 37px;
     }
     .head p{
-        font-size: 25px;
+        font-size: 20px;
     }
     .head-image {
         padding-top: 12px;
         padding-bottom: 18px;
     }
     .head-image img{
-        height: 50px;
-        width: 50px;
+        height: 40px;
+        width: 40px;
     }
     .head-info .col-1{
         padding: 10px 30px;
         padding-bottom: 10px;
     }
     .col-1 h4{
-        font-size: 30px;
+        font-size: 22px;
     }
     .col-1 p{
-        font-size: 16px;
+        font-size: 12px;
     }
  }
 
@@ -78,21 +78,25 @@
         padding-top: 8px;
     }
     .head h3{
-        font-size: 50px;
+        font-size: 35px;
         margin-bottom: 30px;
     }
     .head p{
-        font-size: 25px;
+        font-size: 8px;
     }
     .head-image{
         padding-top: 13px;
-        padding-bottom: 29px;
+        padding-bottom: 10px;
     }
     .head-info .col-1{
         padding: 14px 25px 30px;
     }
     .col-1 h4{
-        font-size: 26px;
+        font-size: 18px;
+    }
+    .head-image img{
+        height: 30px;
+        width: 30px;
     }
 }
 
@@ -112,10 +116,10 @@
 
 @media (max-width: 480px) {
     .head p{
-        font-size: 22px;
+        font-size: 18px;
     }
     .head h3{
-        font-size: 45px;
+        font-size: 35px;
     }
     .col-1 h4{
         margin-bottom: 12px;

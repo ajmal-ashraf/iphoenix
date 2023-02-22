@@ -55,14 +55,14 @@
         padding-bottom: 40px;
     }
     .collection-head h3{
-        font-size: 46px;
+        font-size: 37px;
     }
     .collection-head p{
-        font-size: 25px;
+        font-size: 20px;
     }
     .photo-1 img{
-        height: 250px;
-        width: 250px;
+        height: 200px;
+        width: 200px;
         margin-right: 12px;
     }
     .social-media{
@@ -80,15 +80,18 @@
         padding-top: 8px;
     }
     .collection-head h3{
-        font-size: 50px;
+        font-size: 35px;
         margin-bottom: 30px;
     }
     .collection-head p{
-        font-size: 25px;
+        font-size: 8px;
     }
     .photo-1 img{
-        width: 250px;
-        height: 250px;
+        width: 150px;
+        height: 150px;
+    }
+    .btn-socialmedia a{
+        font-size: 14px;
     }
 }
 

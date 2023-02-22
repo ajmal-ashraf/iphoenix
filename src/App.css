@@ -51,8 +51,16 @@ li:hover{
   .container{
        padding-left: 0px;
        padding-right: 0px;
-       margin-left: 50px;
-       margin-right: 50px;
+       margin-left: 100px;
+       margin-right: 100px;
+  }
+ }
+ @media (max-width: 768px){
+  .container{
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 50px;
+    margin-right: 50px;
   }
  }
 

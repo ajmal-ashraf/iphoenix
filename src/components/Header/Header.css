@@ -44,19 +44,19 @@ header{
  /* Large devices */
  @media (max-width: 1440px) {
    .logo h3 a{
-      font-size: 31px;
+      font-size: 27px;
    }
    .list-item a{
-      font-size: 14px;
+      font-size: 12px;
    }
  }
 
 @media (max-width: 1024px) {
    header{
-      padding: 10px 0px;
+      padding: 2px 0px;
    }
    .logo h3 a{
-      font-size: 35px;
+      font-size: 23px;
    }
    .nav-bar .list-style{
       display: block;
